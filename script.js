@@ -2,7 +2,7 @@ function firstChar(text) {
   // your code here
 	const result = text.trim();
 	if(result.length > 0){
-		console.log(result.substring(0,1))
+		console.log(result.substring(0))
 	}
 	else{
 		console.log('')
