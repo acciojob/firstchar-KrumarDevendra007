@@ -1,12 +1,14 @@
 function firstChar(text) {
   // your code here
 	const result = text.trim();
-	if(result.length > 0){
-		console.log(result.substring(0, 1))
-	}
-	else{
-		console.log('')
-	}
+	   for(let i=0; i<text.length; i++){
+		   if(text[i] !== ' '){
+			   return text[i];
+		   }
+	   }
+
+	   return '';
+  }
 	
 }
 
